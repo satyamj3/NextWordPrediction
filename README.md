@@ -1,15 +1,16 @@
 # NextWordPrediction
 
 This project is created and trained on Google Colab. So, you may find some paths of Google drive.
-Following step I have followed while building this project.
-  1. Preprocess text -> 
+
+Following steps I have followed while building this project.
+  1. Preprocess text:
       * cleaning the raw text i.e. removing the unneccessary characters from the text
       * sent and word tokeknization
       * stop word removal
       * lemmatization
   2. Converting text tokens into vectors list using keras tokenizer
   3. Creating training data by forming sequence from the vectors list
-  4. Model building
+  4. Model building:
       * Creating sequential model with the size of total words
       * Added an Embedding layer with 1000 features/inputs
       * Added Dense layer with 1000 inputs
